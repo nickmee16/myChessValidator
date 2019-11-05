@@ -1,0 +1,29 @@
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="shortcut icon" href="king.png">
+</head>
+
+<body>
+  <div class="text">Your move:</div> <input type="text" placeholder="Example:e2-e4 e7-e5" id="myMove">
+  <button class="button" id="enterBtn" onclick="enterValue()">Enter</button>
+  <div id="chess-history">
+    <h3>History</h3>
+    <div id="history-value1">No moves</div>
+    <div id="history-value2"></div>
+    <div id="history-value3"></div>
+    <div id="history-value4"></div>
+    <div id="history-value5"></div>
+    <div id="history-value6"></div>
+    <div id="history-value7"></div>
+    <div id="history-value8"></div>
+  </div>
+  <button class="button" id="resultBtn" onclick="result()">Check and reset</button>
+  <div class="text" id="myResylt"></div>
+
+  <script src="script.js"> </script>
+
+</body>
+
+</html>
